@@ -13,7 +13,7 @@ python -m venv venv
 
 No Linux:
 ```
-source venv\bin\activate
+source venv/bin/activate
 ```
 
 No Windows:
