@@ -1,7 +1,7 @@
 from flask import Blueprint, request
 
 
-github_blueprint = Blueprint('Consultando repo', __name__)
+github_blueprint = Blueprint('Consultando_repo', __name__)
 
 
 @github_blueprint.route('/get', methods=['GET'])
