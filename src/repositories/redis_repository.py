@@ -7,3 +7,6 @@ def set_value(key, value):
 
 def get_value(key):
     return r.get(key)
+
+def set_value_with_expiration(key, value, expiration):
+    r.setex(key, expiration, value)
